@@ -2,7 +2,7 @@ def oxford_comma(array)
   finalStr = ''
   
   if array.length == 1
-    return finalStr += array[0]
+    return array[0].toS
   elsif array.length == 2
     return finalStr += array[0] + "and " + array[1]
   else
