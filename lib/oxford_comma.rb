@@ -6,4 +6,5 @@ def oxford_comma(array)
   elsif array.length == 2
     finalStr += array[0] + "and " + array[1]
   return finalStr
+  
 end
