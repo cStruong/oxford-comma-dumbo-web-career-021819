@@ -4,7 +4,7 @@ def oxford_comma(array)
   if array.length == 1
     return array[0].to_s
   elsif array.length == 2
-    return finalStr += array[0] + "and " + array[1]
+    return array[0].to_s + "and " + array[1].to_s
   else
   i = 0
   while i < array.length
